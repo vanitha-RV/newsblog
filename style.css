@@ -1,0 +1,64 @@
+
+div{
+    border:2px solid black;
+    height: 350px;
+    width: 500px;
+}
+*
+{
+    margin:0;
+    padding: 0;
+    color:white;
+    background-color: black;
+}
+.container {
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    text-decoration: double;
+    text-decoration: burlywood;
+
+}
+.container > div:hover
+{
+    opacity: 0.8;
+    transform:scale(1);
+}
+.container
+{
+
+    background-position:fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+p{
+    font-size:25px;
+    font-weight: bold;
+}
+.bg-1
+{
+     background: url("https://th.bing.com/th?id=ORMS.ccffe1e3a35b3724a3ad9af9677dce7c&pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1&p=0");
+}
+
+ .bg-2
+ {
+    background:url("https://th.bing.com/th?id=ORMS.42c36604ec4aa5fd568ace52e45732a3&pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1&p=0"); 
+ }   
+ .bg-3
+ {
+    background:url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qsAcH.img?w=768&h=432&m=6&x=162&y=211&s=105&d=105")
+ }
+.bg-4
+{
+    background:url("https://th.bing.com/th?id=ORMS.4ca5c6b6cee6176a0fb4ff561a634a3e&pid=Wdp&w=268&h=140&qlt=90&c=1&rs=1&dpr=1&p=0");
+}
+.bg-5
+{
+    background: url("https://th.bing.com/th?id=ORMS.e1e2323a5e912e42b7d83785c413d984&pid=Wdp&w=268&h=140&qlt=90&c=1&rs=1&dpr=1&p=0")
+}
+.bg-6
+{
+    background: url("https://th.bing.com/th?id=ORMS.decd3a2b156de1e9fff1e7dafe3ce2e7&pid=Wdp&w=268&h=140&qlt=90&c=1&rs=1&dpr=1&p=0");
+}
